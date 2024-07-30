@@ -11,9 +11,9 @@
             <div class="dash">
               <h5 class="semi center date" style="z-index:15">July 28 - August 02, 2022 </h5>
               <div class="butt" style="z-index:10">
-                <g-link to="/request/">
-                  <button class="left">ㅤRequest Invite‎‎‎‎‎‎‎ㅤ</button>
-                </g-link>
+                <nuxt-link to="/request/">
+                  <button class="left">Request Invite</button>
+                </nuxt-link>
                 <a href="https://app.minet.co">
                   <button class="right">Access Dashboard</button>
                 </a>
@@ -134,7 +134,7 @@
                       The
                       <br class="nvm" />Team.
                     </h1>
-                    <g-link to="/members/" class="memberslink">
+                    <nuxt-link to="/members/" class="memberslink">
                       <button class="cust">
                         <span>meet the members</span>
                         <img
@@ -144,7 +144,7 @@
                           draggable="false"
                         />
                       </button>
-                    </g-link>
+                    </nuxt-link>
                   </div>
                 </div>
               </div>

@@ -1,0 +1,165 @@
+@font-face {
+	font-family: "SF reg";
+	src: url("../fonts/europa-regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "EuroBold";
+	src: url("../fonts/Europa-Bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "minet";
+	src: url("../fonts/virgo.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
+.columns {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+	margin-top: 0 !important;
+}
+
+.semi {
+	font-family: 'EuroBold';
+}
+
+.zero {
+	margin: 0 !important;
+}
+
+div p:last-of-type {
+	margin: 0;
+}
+
+::-moz-selection {
+	color: #fff;
+	background: #6699ee;
+}
+
+::selection {
+	color: #fff;
+	background: #6699ee;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.minet {
+	font-family: 'minet';
+}
+
+.title {
+	font-family: 'SF medium';
+}
+
+.center {
+	text-align: center;
+}
+
+
+button {
+	font-family: 'EuroBold' !important;
+}
+
+button.save {
+	margin: 2em 0;
+	background-color: #6699ee;
+	border: none;
+	border-radius: 0.5em;
+}
+
+button.save:hover {
+	background-color: #4371c2;
+}
+
+button.cool {
+	box-shadow: 0px 8px 32px rgba(56, 123, 217, 0.6);
+	background-color: #6699ee;
+	color: #fff;
+	border: none;
+	transform: translateY(-4px);
+	transition: 0.5s;
+	font-size: 0.8em;
+}
+
+button.cool:hover {
+	transform: translateY(0px);
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+
+.layout, * {
+	font-family: 'SF reg';
+}
+
+.layout, h1, h2, h3, h5, h6, p {
+	color: #222;
+}
+
+a {
+	color: #6699ee;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #2f5ba7;
+}
+
+::-webkit-scrollbar {
+	width: 0.5em;
+	display: none;
+}
+
+::-webkit-scrollbar-track {
+	background-color: white;
+	width: 1em;
+	display: none;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #6699ee;
+	display: none;
+}
+
+.noselect, br, img, input, textarea, button {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+button {
+	font-family: 'SF reg';
+}
+
+.subtext {
+	font-size: 1.3em;
+	margin-bottom: 2em;
+}
+input{
+	font-family: 'SF medium';
+}
+@media (max-width: 700px) {
+	.subtext {
+		font-size: 1.15em;
+	}
+}

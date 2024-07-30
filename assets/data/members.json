@@ -1,0 +1,219 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Sagar Gupta",
+      "position": "President",
+      "photo": "/sagar.png",
+      "class": 12
+    },
+
+    {
+      "id": 2,
+      "name": "Dhimaan Prasad",
+      "position": "President",
+      "photo": "/dhimaan.png",
+      "class": 12
+    },
+
+    {
+      "id": 3,
+      "name": "Manan Sarna",
+      "position": "Vice President",
+      "photo": "/manan.png",
+      "class": 12
+    },
+
+    {
+      "id": 4,
+      "name": "Risha Srinivas",
+      "position": "Senior Advisor",
+      "photo": "/risha.png",
+      "class": 12
+    },
+
+    {
+      "id": 5,
+      "name": "Janisha Hindocha",
+      "position": "Lens President",
+      "photo": "/janisha.jpg",
+      "class": 12
+    },
+    
+    {
+      "id": 6,
+      "name": "Bornik Nag",
+      "position": "CryptX & Audio Head",
+      "photo": "/bornik.jpg",
+      "class": 12
+    },
+    
+    {
+      "id": 7,
+      "name": "Aviral Gupta",
+      "position": "Member",
+      "photo": "/aviral.jpg",
+      "class": 12
+    },
+
+    {
+      "id": 8,
+      "name": "Malhar Mazumdar",
+      "position": "Member",
+      "photo": "/malhar.png",
+      "class": 11
+    },
+
+    {
+      "id": 9,
+      "name": "Pushan Banerjee",
+      "position": "Member",
+      "photo": "/pushan.jpg",
+      "class": 10
+    },
+
+    {
+      "id": 10,
+      "name": "Manas Goyal",
+      "position": "Member",
+      "photo": "/manasg.jpg",
+      "class": 8
+    },
+
+    {
+      "id": 11,
+      "name": "Pranav Saini",
+      "position": "Member",
+      "photo": "/pranavs.jpg",
+      "class": 12
+    },
+
+    {
+      "id": 12,
+      "name": "Manas Kaushik",
+      "position": "Member",
+      "photo": "/manask.png",
+      "class": 11
+    },
+
+    {
+      "id": 13,
+      "name": "Shiv Sabharwal",
+      "position": "Member",
+      "photo": "/shiv.jpg",
+      "class": 12
+    },
+
+    {
+      "id": 14,
+      "name": "Shreeansh Pujari",
+      "position": "Member",
+      "photo": "/pujari.jpg",
+      "class": 12
+    },
+
+    {
+      "id": 15,
+      "name": "Noel Tudu",
+      "position": "Member",
+      "photo": "/noel.jpg",
+      "class": 11
+    },
+
+    {
+      "id": 16,
+      "name": "Bhavna Jain",
+      "position": "Member",
+      "photo": "/bhavna.jpeg",
+      "class": 10
+    },
+
+    {
+      "id": 17,
+      "name": "Shreeya Sinha",
+      "position": "Member",
+      "photo": "/shreeya.jpg",
+      "class": 10
+    },
+
+    {
+      "id": 18,
+      "name": "Anya Gupta",
+      "position": "Member",
+      "photo": "/anya.jpeg",
+      "class": 10
+    },
+
+    {
+      "id": 20,
+      "name": "Nitya Gupta",
+      "position": "Member",
+      "photo": "/nityag.jpg",
+      "class": 10
+    },
+
+    {
+      "id": 22,
+      "name": "Hridaan Sarvagyaa",
+      "position": "Member",
+      "photo": "/hridaan.jpg",
+      "class": 9
+    },
+
+    {
+      "id": 23,
+      "name": "Pranav Kapoor",
+      "position": "Member",
+      "photo": "/pranavk.png",
+      "class": 9
+    },
+
+    {
+      "id": 24,
+      "name": "Nitya Jain",
+      "position": "Member",
+      "photo": "/nityaj.jpg",
+      "class": 9
+    },
+
+    {
+      "id": 25,
+      "name": "Amaira Chhikara",
+      "position": "Member",
+      "photo": "/amaira.jpg",
+      "class": 9
+    },
+
+    {
+      "id": 26,
+      "name": "Rika Sarkar",
+      "position": "Member",
+      "photo": "/rika.jpg",
+      "class": 9
+    },
+
+    {
+      "id": 27,
+      "name": "Reya Kaloya",
+      "position": "Member",
+      "photo": "/reya.jpeg",
+      "class": 8
+    },
+
+    {
+      "id": 28,
+      "name": "Avantika Agarwal",
+      "position": "Member",
+      "photo": "/avantika.jpg",
+      "class": 7
+    },
+
+    {
+      "id": 29,
+      "name": "Shweta Nair",
+      "position": "Member",
+      "photo": "/shweta.jpg",
+      "class": 7
+    }
+  ]
+}

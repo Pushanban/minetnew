@@ -22,8 +22,8 @@
 					<div v-for="member in members" :key="member.id" data-aos="fade" data-aos-duration="1000">
 						<div class="cardn">
 							<div class="center">
-								<g-image
-									:src="require(`../assets/images/members${member.photo}`)"
+								<img
+									:src="`../assets/images/members${member.photo}`"
 									class="memberimg"
 									alt="Member"
 									draggable="false"

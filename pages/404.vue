@@ -9,7 +9,7 @@
 				</h2>
 				<h5>404</h5>
 				<h5 class="homelink">
-					<g-link to="/">go back home 🥺</g-link>
+					<nuxt-link to="/">go back home 🥺</nuxt-link>
 				</h5>
 			</div>
 		</div>

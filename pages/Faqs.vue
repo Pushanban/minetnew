@@ -42,7 +42,7 @@
 								>here</a>
 								. Otherwise, head over to
 
-								<g-link to="/events/">minet.co/events</g-link>
+								<nuxt-link to="/events/">minet.co/events</nuxt-link>
 								<span>.</span>
 							</div>
 						</div>
@@ -62,8 +62,8 @@
 									X will be held from 28th July - 2nd August 2022. Confirmatory registration of the events will be provided 
 									at the start itself. You can request an invite to X at 
 
-									<g-link to="/request/">minet.co/request</g-link>
-									<span>.</span> You can view the registration tutorial <g-link to="https://youtu.be/1MRQ0cO67zg">here</g-link> <span>.</span>
+									<nuxt-link to="/request/">minet.co/request</nuxt-link>
+									<span>.</span> You can view the registration tutorial <nuxt-link to="https://youtu.be/1MRQ0cO67zg">here</nuxt-link> <span>.</span>
 								</p>
 							</div>
 						</div>
@@ -113,11 +113,11 @@
 							<div class="content">
 								<p class="zero">
 									The last date of requesting an invite is 26th July 2022 at 2:00 PM. You can do so at
-									<g-link to="/request/">minet.co/request</g-link>
+									<nuxt-link to="/request/">minet.co/request</nuxt-link>
 									<span>.</span><br>
 
 									The last date of registering your team is 29th July 2022 at 2:00 PM. You can do so at
-									<g-link to="https://app.minet.co/rsvp">app.minet.co/rsvp</g-link>
+									<nuxt-link to="https://app.minet.co/rsvp">app.minet.co/rsvp</nuxt-link>
 									<span>.</span>
 								</p>
 							</div>
@@ -136,10 +136,10 @@
 							<div class="content">
 								We’re sending out invite codes on a rolling basis. If your
 								school hasn’t received an invite code, you can request one at
-								<g-link to="/request/">minet.co/request</g-link>
+								<nuxt-link to="/request/">minet.co/request</nuxt-link>
 								<span>.</span>
 								For specific information regarding the events, head to
-								<g-link to="/events/">minet.co/events</g-link>
+								<nuxt-link to="/events/">minet.co/events</nuxt-link>
 								<span>.</span>
 							</div>
 						</div>

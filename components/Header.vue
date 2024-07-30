@@ -1,56 +1,16 @@
 <template>
 	<header class="header">
-		<b-sidebar
-			type="is-light"
-			:fullheight="fullheight"
-			:fullwidth="fullwidth"
-			:overlay="overlay"
-			:right="right"
-			v-model="open"
-		>
-			<div class="center sideside">
-				<img src="../assets/images/close.png" alt class="closebtn" @click="open = false" />
-				<h4 class="top">
-					<span @click="open = false">
-						<g-link to="/events/">EVENTS</g-link>
-					</span>
-				</h4>
-				<h4>
-					<span @click="open = false">
-						<g-link to="/members/">MEMBERS</g-link>
-					</span>
-				</h4>
-				<h4>
-					<span @click="open = false">
-						<g-link to="/schedule/">SCHEDULE</g-link>
-					</span>
-				</h4>
-				<h4>
-					<span @click="open = false">
-						<g-link to="/faqs/">FAQS</g-link>
-					</span>
-				</h4>
-
-				<h1 class="minet">
-					<g-link to="/">
-						<span @click="open = false">
-							<img src="../assets/images/minet.svg" class="mobminet" />
-						</span>
-					</g-link>
-				</h1>
-			</div>
-		</b-sidebar>
-		<div class="nav">
+				<div class="nav">
 			<div class="container">
 				<nav>
 					<div>
-						<g-link to="/" class="minet">MINET</g-link>
+						<nuxt-link to="/" class="minet">MINET</nuxt-link>
 					</div>
 					<div class="right">
-						<g-link to="/events/">Events</g-link>
-						<g-link to="/members/">Members</g-link>
-						<g-link to="/schedule/">Schedule</g-link>
-						<g-link to="/faqs/">FAQs</g-link>
+						<nuxt-link to="/events/">Events</nuxt-link>
+						<nuxt-link to="/members/">Members</nuxt-link>
+						<nuxt-link to="/schedule/">Schedule</nuxt-link>
+						<nuxt-link to="/faqs/">FAQs</nuxt-link>
 
 						<div class="tog" @click="open = true">
 							<p class="rightbro">
@@ -64,13 +24,6 @@
 	</header>
 </template>
 
-<static-query>
-query {
-  metadata {
-    siteName
-  }
-}
-</static-query>
 
 <script>
 export default {

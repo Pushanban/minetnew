@@ -17,7 +17,7 @@
 			</div>
 
 			<section>
-				<b-modal
+				<u-modal
 					v-model="isDesignModalActive"
 					has-modal-card
 					trap-focus
@@ -56,9 +56,9 @@
 							</div>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isPitchingModalActive"
 					has-modal-card
 					trap-focus
@@ -103,9 +103,9 @@
 							<button class="close save" @click="isPitchingModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isQuizModalActive"
 					has-modal-card
 					trap-focus
@@ -146,9 +146,9 @@
 							<button class="close save" @click="isQuizModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isCrossModalActive"
 					has-modal-card
 					trap-focus
@@ -179,10 +179,10 @@
 							<button class="close save" @click="isCrossModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
 
-				<b-modal
+				<u-modal
 					v-model="isGamingModalActive"
 					has-modal-card
 					trap-focus
@@ -219,8 +219,8 @@
 							<button class="close save" @click="isGamingModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
-				<b-modal
+				</u-modal>
+				<u-modal
 					v-model="isProgModalActive"
 					has-modal-card
 					trap-focus
@@ -265,9 +265,9 @@
 							<button class="close save" @click="isProgModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isGDModalActive"
 					has-modal-card
 					trap-focus
@@ -326,9 +326,9 @@
 							<button class="close save" @click="isGDModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isCryptModalActive"
 					has-modal-card
 					trap-focus
@@ -374,9 +374,9 @@
 							<button class="close save" @click="isCryptModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isPhotographyModalActive"
 					has-modal-card
 					trap-focus
@@ -412,9 +412,9 @@
 							<button class="close save" @click="isPhotographyModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isFilmModalActive"
 					has-modal-card
 					trap-focus
@@ -453,9 +453,9 @@
 							</div>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 
-				<b-modal
+				<u-modal
 					v-model="isSurpriseModalActive"
 					has-modal-card
 					trap-focus
@@ -478,7 +478,7 @@
 							<button class="close save" @click="isSurpriseModalActive = false">close</button>
 						</div>
 					</div>
-				</b-modal>
+				</u-modal>
 			</section>
 
 			<div class="u-cf"></div>
