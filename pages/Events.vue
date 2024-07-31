@@ -18,16 +18,17 @@
 
 			<section>
 				<u-modal
-					v-model="isDesignModalActive"
+					v-if="isDesignModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Design</h1>
+					<div class="modal">
 						<br />
-						<div class="modaltext">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Design</h1>
+							<br>
 							<p>
 								One of the two halves of Make, the design team has the
 								responsibility of handling your startup and building it from the
@@ -59,16 +60,16 @@
 				</u-modal>
 
 				<u-modal
-					v-model="isPitchingModalActive"
+					v-if="isPitchingModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Pitching</h1>
-						<br />
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Pitching</h1>
+							<br />
 							<p>
 								Following up on the product built by the design team, the
 								pitchers will be presenting the designed project in front of a
@@ -98,24 +99,24 @@
 								<b>Format</b> : Offline
 							</p>
 
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isPitchingModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isPitchingModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isQuizModalActive"
+					v-if="isQuizModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Quiz</h1>
-						<br />
-						<div class="modaltext">
+				<div class="modal">
+					<div class="inner-modal-content">
+					<h1 class="modalhead">Quiz</h1>
+					<br />
 							<p> Around the irregular contours of Knowledge, seek to arrive at the answer not just with 
 								what you know but from what you can read between. Seemingly normal? No. Welcome to Quiz
 								at X. 
@@ -141,24 +142,24 @@
 								<b>Format</b> : 
 									Round 1 : Online <b>|</b> Round 2 : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isQuizModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isQuizModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isCrossModalActive"
+					v-if="isCrossModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Crossword</h1>
-						<br />
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Crossword</h1>
+							<br />
 
 							<p>
 								 -(WORD)-
@@ -174,27 +175,27 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Online
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isCrossModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isCrossModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 
 				<u-modal
-					v-model="isGamingModalActive"
+					v-if="isGamingModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Gaming</h1>
-						<br />
-						<h2 class="quote">"Video games foster the mindset that allows creativity to flow"</h2>
-						<p class="gamequote">- Nolan Bushnell</p>
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Gaming</h1>
+							<br />
+							<h2 class="quote">"Video games foster the mindset that allows creativity to flow"</h2>
+							<p class="gamequote">- Nolan Bushnell</p>
 							<p>
 								 A marathon of dexterity, agility, coordination and sheer presence of mind, participants 
 								are tested to the limit in a wide range of games, ranging from obscure to popular. Remember, 
@@ -214,23 +215,23 @@
 								<b>Format</b> : 
 									Round 1 : Online <b>|</b> Rest of the Rounds : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isGamingModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isGamingModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 				<u-modal
-					v-model="isProgModalActive"
+					v-if="isProgModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Programming</h1>
-						<br />
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Programming</h1>
+							<br />
 							<p>
 								This year the programming event will consist of two independent parts.
 							</p>
@@ -260,25 +261,25 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isProgModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isProgModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isGDModalActive"
+					v-if="isGDModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
+					<div class="modal">
 						<div class="anti"></div>
-						<h1 class="modalhead">Group Discussion</h1>
-						<br />
-						<div class="modaltext">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Group Discussion</h1>
+							<br />
 							<p>
 								 Enlightening conversation centered around the questions that plague 
 								technology today. Participants will have to discuss constructively and come to a collaborative 
@@ -321,24 +322,24 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isGDModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isGDModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isCryptModalActive"
+					v-if="isCryptModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">CryptX</h1>
-						<br />
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">CryptX</h1>
+							<br />
 							<p>
 								Our trademark cryptic hunt, CryptX will take commence at
 								<span
@@ -369,24 +370,24 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Online
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isCryptModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isCryptModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isPhotographyModalActive"
+					v-if="isPhotographyModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<h1 class="modalhead">Photography</h1>
-						<br />
-						<div class="modaltext">
+					<div class="modal">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Photography</h1>
+							<br />
 							<p>
 								Carved in illusions so persuasive, and molded to the vibrance of monochrome 
 								and the paradoxes of colour; each emotion so distinct in its singularity and yet so compellingly 
@@ -407,25 +408,25 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isPhotographyModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isPhotographyModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
 
 				<u-modal
-					v-model="isFilmModalActive"
+					v-if="isFilmModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
+					<div class="modal">
 						<div class="anti"></div>
-						<h1 class="modalhead">Filmmaking</h1>
-						<br />
-						<div class="modaltext">
+						<div class="inner-modal-content">
+							<h1 class="modalhead">Filmmaking</h1>
+							<br />
 							<h5>
 								Prompt:
 								<span class="semi"><a href="https://minet.co/filmmakingprompt">Here</a></span>
@@ -456,14 +457,14 @@
 				</u-modal>
 
 				<u-modal
-					v-model="isSurpriseModalActive"
+					v-if="isSurpriseModalActive"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
 					aria-modal
 				>
-					<div class="modal-card">
-						<div class="centermod">
+					<div class="modal">
+						<div class="inner-modal-content">
 							<h1 class="modalhead" style="text-align:left">You expected an event description</h1>
 							<br />
 							<g-image draggable="false" class="dio" src="~/assets/images/icons/pikapika.png" />
@@ -473,9 +474,9 @@
 								<b>Eligibility</b> : Open <br>
 								<b>Format</b> : Round 1 : Online <b>|</b> Rest of the Rounds : Offline
 							</p>
-						</div>
-						<div class="flex-center">
-							<button class="close save" @click="isSurpriseModalActive = false">close</button>
+							<div class="flex-center">
+								<button class="close save" @click="isSurpriseModalActive = false">close</button>
+							</div>
 						</div>
 					</div>
 				</u-modal>
@@ -756,6 +757,31 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity for dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Centered modal content */
+.inner-modal-content {
+  background-color: white;
+  padding: 2em;
+  width: 33%;
+  border-radius: 2em;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19); /* Shadow for modal content */
+  position: relative;
+  z-index: 2; /* Ensure modal content stays above the overlay */
+}
+
 .modalhead {
 	font-size: 30px;
 }
@@ -871,19 +897,19 @@ a.read {
 	box-shadow: 10px 10px 24px #e6e6e6, -10px -10px 24px #fff;
 }
 
-.modal-card {
-	overflow: none;
-	background: #fff;
-	color: #222;
-	padding: 2em;
-	border-radius: 2em;
-	.flex-center {
-		.save {
-			color: #fff;
-			display: none;
-		}
-	}
-}
+// .modal-card {
+// 	overflow: none;
+// 	background: #fff;
+// 	color: #222;
+// 	padding: 2em;
+// 	border-radius: 2em;
+// 	.flex-center {
+// 		.save {
+// 			color: #fff;
+// 			display: none;
+// 		}
+// 	}
+// }
 
 @media (max-width: 750px) {
 	.modal-card {
