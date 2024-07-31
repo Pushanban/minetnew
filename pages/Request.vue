@@ -114,7 +114,7 @@ export default {
       this.disable = true;
       this.loading = true;
       await axios
-        .post("https://app.minet.co/request", {
+        .post("https://localhost:5000/request", {
           pName: this.name,
           insName: this.school,
           links: this.website,
