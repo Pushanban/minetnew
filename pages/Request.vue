@@ -78,7 +78,7 @@
             </div>
             <div class="five columns">
               <div class="flex-center">
-                <g-image draggable="false" class="insta" src="../assets/images/nametag.png" />
+                <img draggable="false" class="insta" src="../assets/images/nametag.png" />
               </div>
             </div>
             <div class="u-cf"></div>

@@ -4,8 +4,8 @@ export default defineNuxtConfig({
     '@/assets/styles/skeleton.css',
     '@/assets/styles/global.css'
   ],
+
   compatibilityDate: '2024-04-03',
-  devtools: { enabled: true }
+  devtools: { enabled: true },
+  modules: ["@nuxt/image", "nuxt-aos"]
 }) ;
-
-

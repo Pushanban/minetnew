@@ -9,7 +9,7 @@
 				<h6>
 					<a href="//madewithlove.org.in" target="_blank">
 						Made with
-						<font-awesome class="heart" :icon="['fas', 'heart']" />&nbsp;in India
+						<font-awesome-icon :icon="['fas', 'heart']" />&nbsp;in India
 					</a>
 				</h6>
 			</div>

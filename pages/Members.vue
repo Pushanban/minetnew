@@ -23,7 +23,7 @@
 						<div class="cardn">
 							<div class="center">
 								<img
-									:src="`../assets/images/members${member.photo}`"
+									:src="`/members${member.photo}`"
 									class="memberimg"
 									alt="Member"
 									draggable="false"
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import members from '@/assets/data/members.json'
+import members from '~/assets/data/members.json'
 
 export default {
 	metaInfo: {

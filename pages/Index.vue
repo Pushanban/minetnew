@@ -104,7 +104,7 @@
               </div>
               <div class="imagemake">
                 <div class="center">
-                  <g-image
+                  <img
                     src="../assets/images/make.svg"
                     alt="Make."
                     class="makeline"

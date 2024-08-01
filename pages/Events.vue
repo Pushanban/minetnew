@@ -19,6 +19,7 @@
 			<section>
 				<u-modal
 					v-if="isDesignModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -61,6 +62,7 @@
 
 				<u-modal
 					v-if="isPitchingModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -108,6 +110,7 @@
 
 				<u-modal
 					v-if="isQuizModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -151,6 +154,7 @@
 
 				<u-modal
 					v-if="isCrossModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -185,6 +189,7 @@
 
 				<u-modal
 					v-if="isGamingModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -223,6 +228,7 @@
 				</u-modal>
 				<u-modal
 					v-if="isProgModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -239,21 +245,18 @@
 								<ul>
 							<li>A ‘very-specific’ prompt will be released on the 29th July, 2022 (Friday) at 9:41am. </li>
 							<li>Participants are required to make a fully-functioning program based on the prompt.</li>
-							<li>Note that plus points for projects involving GUI and web-based developments</li>
-							<li>The final project needs to be submitted by 31st July, 2022 (Sunday) 9:41pm through google forms, via link of the google drive containing the project, a ‘README’ file and all other prerequisites required to run the project.</li>
+						
 								</ul>
 							</p>
 
 							<p><b>Offline Competitive Programming</b>
 								<ul>
 							<li>The offline event to be held on the 1st August, 2022 in offline mode at school. </li>
-							<li>The event would be 2 hours long and conducted through HackerRank using the school’s systems</li>
-							<li>All languages endorsed by HackerRank can be used by the participants.</li>
 								</ul>
 							</p>
 
 							<p>
-								None is a qualifying round, and participants can take part in both the rounds. The Offline CP is compulsory, while the Online Prompt Release is optional, though recommended. The final scores will be obtained by clubbing the scores of both the parts in ratio 36% (Online Prompt Release) and 64% (Offline CP)
+								The final scores will be obtained by clubbing the scores of both the parts in ratio 36% (Online Prompt Release) and 64% (Offline CP)
 							</p>
 								
 							<p>
@@ -270,6 +273,7 @@
 
 				<u-modal
 					v-if="isGDModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -331,6 +335,7 @@
 
 				<u-modal
 					v-if="isCryptModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -379,6 +384,7 @@
 
 				<u-modal
 					v-if="isPhotographyModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -417,6 +423,7 @@
 
 				<u-modal
 					v-if="isFilmModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -458,6 +465,7 @@
 
 				<u-modal
 					v-if="isSurpriseModalActive"
+					:overlay="false"
 					has-modal-card
 					trap-focus
 					:destroy-on-hide="false"
@@ -467,7 +475,7 @@
 						<div class="inner-modal-content">
 							<h1 class="modalhead" style="text-align:left">You expected an event description</h1>
 							<br />
-							<g-image draggable="false" class="dio" src="~/assets/images/icons/pikapika.png" />
+							<img draggable="false" class="dio" src="/assets/images/icons/pikapika.png" />
 
 							<p style="text-align:left">
 								<b>Number of Participants</b> : 2 <br>
@@ -488,7 +496,7 @@
 
 					<div class="event card" @click="isDesignModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Design.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Design.png" alt />
 							<h2>Design</h2>
 						</div>
 						<div class="content">
@@ -508,7 +516,7 @@
 
 					<div class="event card" @click="isPitchingModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Pitching.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Pitching.png" alt />
 							<h2>Pitching</h2>
 						</div>
 						<div class="content">
@@ -532,7 +540,7 @@
 
 					<div class="event card" @click="isQuizModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Quiz.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Quiz.png" alt />
 							<h2>Quiz</h2>
 						</div>
 						<div class="content">
@@ -554,7 +562,7 @@
 
 					<div class="event card" @click="isCrossModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Cross.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Cross.png" alt />
 							<h2>Crossword</h2>
 						</div>
 						<div class="content">
@@ -576,7 +584,7 @@
 
 					<div class="event card" @click="isGamingModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Game.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Game.png" alt />
 							<h2>Gaming</h2>
 						</div>
 						<div class="content">
@@ -596,7 +604,7 @@
 
 					<div class="event card" @click="isGDModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/GD.png" alt />
+							<img class="eventimg" src="/assets/images/icons/GD.png" alt />
 							<h2>GD</h2>
 						</div>
 						<div class="content">
@@ -617,7 +625,7 @@
 
 					<div class="event card" @click="isProgModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Programming.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Programming.png" alt />
 							<h2 class="proghead">Programming</h2>
 						</div>
 						<div class="content">
@@ -640,7 +648,7 @@
 
 					<div class="event card" @click="isSurpriseModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Surprise.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Surprise.png" alt />
 							<h2>Surprise</h2>
 						</div>
 						<div class="content">
@@ -665,7 +673,7 @@
 
 					<div class="event card" @click="isCryptModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Crypt.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Crypt.png" alt />
 							<h2>CryptX</h2>
 						</div>
 						<div class="content">
@@ -688,7 +696,7 @@
 
 					<div class="event card" @click="isPhotographyModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Photo.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Photo.png" alt />
 							<h2 class="proghead">Photography</h2>
 						</div>
 						<div class="content">
@@ -709,7 +717,7 @@
 
 					<div class="event card" @click="isFilmModalActive = true">
 						<div class="cardhed">
-							<g-image class="eventimg" src="~/assets/images/icons/Film.png" alt />
+							<img class="eventimg" src="/assets/images/icons/Film.png" alt />
 							<h2>Filmmaking</h2>
 						</div>
 						<div class="content">
@@ -761,11 +769,13 @@ export default {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
+  overflow: hidden;
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   background-color: rgba(0, 0, 0, 0.8); /* Black w/ opacity for dark background */
+  padding: 3em 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -775,7 +785,7 @@ export default {
 .inner-modal-content {
   background-color: white;
   padding: 2em;
-  width: 33%;
+  width: 30%;
   border-radius: 2em;
 //   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.19); /* Shadow for modal content */
   position: relative;
@@ -872,7 +882,7 @@ hr {
 }
 
 .proghead {
-	font-size: 30px;
+	font-size: 0.8em;
 }
 
 .eventimg {
@@ -894,7 +904,7 @@ a.read {
 	width: 100%;
 	border-radius: 1em;
 	margin-bottom: 2em;
-	box-shadow: 10px 10px 24px #e6e6e6, -10px -10px 24px #fff;
+	box-shadow: 20px 10px 24px #e6e6e6, -10px -10px 24px #fff;
 }
 
 // .modal-card {
@@ -951,7 +961,7 @@ h6 {
 
 #events {
 	display: grid;
-	grid-gap: 2em;
+	grid-gap: 5em;
 	grid-template-columns: repeat(3, 1fr);
 	margin-top: 2em;
 	margin-bottom: 1em;

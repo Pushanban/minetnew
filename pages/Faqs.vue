@@ -10,8 +10,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q1">
 							<p class="card-header-title">What is X? Who can attend?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -28,8 +28,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q2">
 							<p class="card-header-title">How is X going to be held this time?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -52,8 +52,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q2">
 							<p class="card-header-title">When is X? How do I register for it?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -75,8 +75,8 @@
 								What exactly is Make? How does it work?
 							</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -105,8 +105,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q2">
 							<p class="card-header-title">What is the last date of registration?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -128,8 +128,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q2">
 							<p class="card-header-title">My school hasn’t received an invite code yet. What do I do?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -152,8 +152,8 @@
 								how many events I can attend?
 							</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -173,8 +173,8 @@
 						<div slot="trigger" slot-scope="props" class="card-header" role="button" aria-controls="q3">
 							<p class="card-header-title">How does the scoring system work?</p>
 							<a class="card-header-icon">
-								<font-awesome v-if="props.open" :icon="['fas', 'times']" />
-								<font-awesome v-else :icon="['fas', 'plus']" />
+								<FontAwesomeIcon v-if="props.open" :icon="['fas', 'times']" />
+								<FontAwesomeIcon v-else :icon="['fas', 'plus']" />
 							</a>
 						</div>
 						<div class="card-content">
@@ -234,19 +234,19 @@
 							<div class="buttons noselect">
 								<a href="//minet.co/discord" target="_blank">
 									<button class="button-primary save cool mright">
-										<font-awesome :icon="['fab', 'discord']" style="width:1.2em; margin-top: 0.3em;"/>&nbsp;Discord
+										<FontAwesomeIcon :icon="['fab', 'discord']" style="width:1.2em; margin-top: 0.3em;"/>&nbsp;Discord
 									</button>
 								</a>
 								<br class="anti" />
 								<a href="//instagram.com/minetclub" target="_blank">
 									<button class="button-primary save cool mright">
-										<font-awesome :icon="['fab', 'instagram']" style="width:1.2em; margin-top: 0.3em;"/>&nbsp;minetclub
+										<FontAwesomeIcon :icon="['fab', 'instagram']" style="width:1.2em; margin-top: 0.3em;"/>&nbsp;minetclub
 									</button>
 								</a>
 								<br class="anti" />
 								<a href="mailto:minet@themis.in" target="_blank">
 									<button class="button-primary save cool mright">
-										<font-awesome :icon="['fas', 'envelope']" style="width:1.2em; margin-top: 0.3em;" />&nbsp;minet@themis.in
+										<FontAwesomeIcon :icon="['fas', 'envelope']" style="width:1.2em; margin-top: 0.3em;" />&nbsp;minet@themis.in
 									</button>
 								</a>
 							</div>
